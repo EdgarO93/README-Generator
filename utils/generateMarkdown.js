@@ -86,7 +86,7 @@ function generateMarkdown(data) {
   
   
   ## Questions
-  Send questions to ${data.email} or visit <a href="https://github.com/${data.github}" target= "_blank" >my profile </a><br>
+  Send questions to ${data.email} or visit <a href="https://github.com/${data.github}" target= "_blank" >my profile! </a><br>
   
   ## Acknowledgments
 ~~~
