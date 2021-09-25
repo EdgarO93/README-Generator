@@ -1,4 +1,4 @@
-# Sample README by Edgar
+# Sample README by Edgar Ortega
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
@@ -19,24 +19,23 @@
   ### Installation
 
   ***
-  Download this repo
+  Download this repo.
 ***
   
   ### Usage
-  run node index.js
+  None
  
 
   ### Contribute
-  None
+  Test always
 
   ## Test
-  Test always
+  test 
 
   
   ## License
-  This project is licensed under the terms of the  <a href=" https://opensource.org/licenses/MIT" target= "_blank" > MIT </a> license.
- 
-  
+  Copyright &copy; 2021 Edgar Ortega
+  This project is licensed under the terms of the  <a href=" https://opensource.org/licenses/MIT" target= "_blank" > MIT </a> license. 
   
  
   
@@ -46,7 +45,7 @@
   
   ## Acknowledgments
 ~~~
-Thanks to all!
+thanks all
 ~~~
 
   
