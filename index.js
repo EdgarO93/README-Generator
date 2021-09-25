@@ -45,17 +45,17 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please select a license",
-    choices: ["MIT", "test", "None"],
+    choices: ["MIT", "Secondary", "None"],
   },
   {
     type: "input",
     name: "github",
-    message: "Please enter you GitHub username",
+    message: "Please enter you GitHub username:",
   },
   {
     type: "input",
     name: "email",
-    message: " Please enter you email",
+    message: " Please enter you email:",
   },
   {
     type: "input",
