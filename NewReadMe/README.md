@@ -1,34 +1,41 @@
-# test3 by edgar
-  
+# Sample README by Edgar Ortega
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
-  test
+  This is a sample for the README Generator project
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribute](#contribute)
   * [Test](#test)
-    
+   
+ * [License](#license)
+  
+   
   * [Questions](#questions)
   * [Acknowledgments](#acknowledgments)
   
   ### Installation
 
   ***
-  tsat
+  Download this Repo!
 ***
   
   ### Usage
-  ata
+  run node index.js on CLI
  
 
   ### Contribute
-  atat
+  none
 
   ## Test
-  atat
+  test always
 
+  
+  ## License
+  Copyright &copy; 2021 Edgar Ortega<br/>   
+  This project is licensed under the terms of the  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license. 
   
  
   
@@ -38,7 +45,7 @@
   
   ## Acknowledgments
 ~~~
-tansk!
+Thanks to all!
 ~~~
 
   
