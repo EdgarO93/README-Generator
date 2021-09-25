@@ -1,63 +1,52 @@
-# Sample README.md
+# Sample README by Edgar
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
-  this is a test
+  This is a test for the README-Generator
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribute](#contribute)
   * [Test](#test)
+   
+ * [License](#license)
+  
+   
   * [Questions](#questions)
-  * [License](#license)
-  * [Acknowlegments](#acknowledgments)
+  * [Acknowledgments](#acknowledgments)
   
   ### Installation
 
   ***
-  get inquirer
+  Download this repo
 ***
   
   ### Usage
-  test
+  run node index.js
  
 
   ### Contribute
-  test
+  None
 
   ## Test
-  always
+  Test always
 
+  
   ## License
-  https://opensource.org/licenses/MIT
-  
-  Copyright (c) 2021 Edgar
-  <br>
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  This project is licensed under the terms of the  <a href=" https://opensource.org/licenses/MIT" target= "_blank" > MIT </a> license.
+ 
   
   
+ 
   
-  ### Questions
+  
+  ## Questions
   Send questions to edort93@gmail.com or visit <a href="https://github.com/edgarO93" target= "_blank" >my profile </a><br>
   
-  ## Acknowlegments
+  ## Acknowledgments
 ~~~
-Thanks everyone!
+Thanks to all!
 ~~~
 
   
