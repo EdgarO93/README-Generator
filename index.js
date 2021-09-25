@@ -69,7 +69,7 @@ const questions = [
 function writeToFile(fileName, data) {
   let newReadMe = `./SampleReadMe/${fileName}`;
   fs.writeFile(newReadMe, data, (err) =>
-    err ? console.log(err) : console.log("Success!")
+    err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
   );
 }
 
