@@ -27,7 +27,7 @@
 
 
  ## License
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT <a href="https://opensource.org/licenses/MIT" target= "_blank" >MIT </a><br> license.
   
   
   ### Questions
