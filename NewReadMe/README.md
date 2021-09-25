@@ -19,7 +19,7 @@
   ### Installation
 
   ***
-  Download this Repo!
+  Dowload this repo!
 ***
   
   ### Usage
@@ -27,25 +27,25 @@
  
 
   ### Contribute
-  none
+  None
 
   ## Test
-  none
+  None
 
   
   ## License
   Copyright &copy; 2021 Edgar Ortega 
-  This project is licensed under the terms of the  <a href=" https://opensource.org/licenses/MIT" target= "_blank" > MIT </a> license. 
+  This project is licensed under the terms of the  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license. 
   
  
   
   
   ## Questions
-  Send questions to edort93@gmail.com or visit <a href="https://github.com/edgar093" target= "_blank" >my profile! </a><br>
+  Send questions to edort93@gmail.com or visit <a href="https://github.com/edgarO93" target= "_blank" >my profile! </a><br>
   
   ## Acknowledgments
 ~~~
-Thanks to all!!
+Thank to all!
 ~~~
 
   
