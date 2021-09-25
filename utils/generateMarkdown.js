@@ -29,7 +29,7 @@ function renderLicenseSection(license,name) {
   return `
   ## License
   Copyright &copy; 2021 ${name} 
-  This project is licensed under the terms of the  <a href=" ${renderLicenseLink(license)}" target= "_blank" > ${license} </a> license. 
+  This project is licensed under the terms of the  <a href="${renderLicenseLink(license)}" target="_blank">${license}</a> license. 
   `
 }
 }
