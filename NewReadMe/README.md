@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
-  This a test for the README-GENERATOR
+  This is a test for the README-GENERATOR project.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -19,7 +19,7 @@
   ### Installation
 
   ***
-  Dowload this repo!
+  Download this repo!
 ***
   
   ### Usage
@@ -34,7 +34,7 @@
 
   
   ## License
-  Copyright &copy; 2021 Edgar Ortega 
+  Copyright &copy; 2021 Edgar Ortega<br/>   
   This project is licensed under the terms of the  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license. 
   
  
@@ -45,7 +45,7 @@
   
   ## Acknowledgments
 ~~~
-Thank to all!
+Thanks to all!!
 ~~~
 
   
