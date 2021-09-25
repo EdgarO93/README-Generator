@@ -64,8 +64,10 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribute](#contribute)
-  * [Questions](#questions)
   * [Test](#test)
+  * [Questions](#questions)
+  * [License](#license)
+  * [Acknowlegments](#acknowledgments)
   
   ### Installation
 
@@ -89,7 +91,17 @@ function generateMarkdown(data) {
   
   ### Questions
   Send questions to ${data.email} or visit <a href="https://github.com/${data.github}" target= "_blank" >my profile </a><br>
+  
+  ## Acknowlegments
+~~~
+${data.thanks}
+~~~
+
+  
+  
   `;
+
+
 
 
 }
