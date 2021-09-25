@@ -14,57 +14,57 @@ const questions = [
     {
    "type": "input",
     "name":"title",
-    "message": "what is your title?"
+    "message": "What is your project title?"
 
 },
 {
     "type": "input",
      "name":"description",
-     "message": "what is your description?"
+     "message": "What is your project description?"
  
  },
  {
     "type": "input",
      "name":"install",
-     "message": "what is your installation instructions?"
+     "message": "What is your project installation instructions?"
  
  },
  {
     "type": "input",
      "name":"usage",
-     "message": "what is your usage information?"
+     "message": "What is your project usage information?"
  
  },
 
  {
     "type": "input",
      "name":"contribute",
-     "message": "what is your contribution guidelines?"
+     "message": "What is your project contribution guidelines?"
  
  },
  {
     "type": "input",
      "name":"test",
-     "message": "what is your test instructions"
+     "message": "What is your project test instructions?"
  
  },
  {
     "type": "list",
      "name":"license",
-     "message": "select a license",
-     "choices":["MIT", "test","none"],
+     "message": "Please select a license",
+     "choices":["MIT", "test","None"],
  
  },
  {
     "type": "input",
      "name":"github",
-     "message": "enter you github username"
+     "message": "Please enter you GitHub username"
  
  },
  {
     "type": "input",
      "name":"email",
-     "message": "enter you email"
+     "message": " Please enter you email"
  
  },
 
