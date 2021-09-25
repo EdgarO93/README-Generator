@@ -1,7 +1,17 @@
 // TODO: Include packages needed for this application
-var inquirer = require ('inquirer');
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
-const questions = [{
+const questions = [
+    {
+        "type": "input",
+         "name":"name",
+         "message": "Hello, what is your name?"
+     
+     },
+
+    {
    "type": "input",
     "name":"title",
     "message": "what is your title?"
@@ -48,7 +58,7 @@ const questions = [{
  {
     "type": "input",
      "name":"github",
-     "message": "enter you github"
+     "message": "enter you github username"
  
  },
  {
@@ -62,14 +72,22 @@ const questions = [{
 
 ];
 
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) =>
+  err ? console.log(err) : console.log('Success!')
+    );
+  }
 
 // TODO: Create a function to initialize app
 function init() {
    inquirer
     .prompt(questions)
     .then((answers) =>{
+        console.log(answers.name)
         console.log(answers.title)
         console.log(answers.description)
         console.log(answers.install)
@@ -79,16 +97,18 @@ function init() {
         console.log(answers.license)
         console.log(answers.github)
         console.log(answers.email)
+       writeToFile("README.md", generateMarkdown(answers));
+
 
     })
-    .catch((error)=>{
-        if(error.isTtyError){
-            console.log('error')
-        } else{
-            //something else went wrong
-        }
-    });
-}
+    // .catch((error)=>{
+    //     if(error.isTtyError){
+    //         console.log('error')
+    //     } else{
+    //         //something else went wrong
+    //     }
+    // });
+};
 
 // Function call to initialize app
 init();
