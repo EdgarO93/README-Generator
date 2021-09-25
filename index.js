@@ -60,17 +60,29 @@ const questions = [
   {
     type: "input",
     name: "thanks",
-    message: " Please enter your acknowledgment message",
+    message: " Please enter your acknowledgment message:",
   },
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+//unlink function to detelete the previous README
 function writeToFile(fileName, data) {
-  let newReadMe = `./NewReadMe/${fileName}`;
-  fs.writeFile(newReadMe, data, (err) =>
-    err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
-  );
+  let newReadMe = `./NewReadMe/${fileName}`
+  fs.unlink(newReadMe, (err) => {
+
+    if (err) {
+        console.log(err);
+    }
+
+    // let newReadMe = `./NewReadMe/${fileName}`;
+    fs.writeFile(newReadMe, data, (err) =>
+      err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
+    );
+})
+  // let newReadMe = `./NewReadMe/${fileName}`;
+  // fs.writeFile(newReadMe, data, (err) =>
+  //   err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
+  // );
 }
 
 // TODO: Create a function to initialize app
