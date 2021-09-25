@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
-  This is a test for the README-Generator
+  This is a test for the README- GENERATOR
 
   ## Table of Contents
   * [Installation](#installation)
@@ -19,22 +19,22 @@
   ### Installation
 
   ***
-  Download this repo.
+  Download this repo
 ***
   
   ### Usage
-  None
+  run node index.js on terminal
  
 
   ### Contribute
-  Test always
+  none
 
   ## Test
-  test 
+  test always
 
   
   ## License
-  Copyright &copy; 2021 Edgar Ortega
+  Copyright &copy; 2021 Edgar Ortega <br>
   This project is licensed under the terms of the  <a href=" https://opensource.org/licenses/MIT" target= "_blank" > MIT </a> license. 
   
  
@@ -45,7 +45,7 @@
   
   ## Acknowledgments
 ~~~
-thanks all
+Thanks to all
 ~~~
 
   
