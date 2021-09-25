@@ -28,12 +28,12 @@ function renderLicenseSection(license,name) {
   else{
   return `
   ## License
-  Copyright &copy; 2021 ${name} <br>
+  Copyright &copy; 2021 ${name} 
   This project is licensed under the terms of the  <a href=" ${renderLicenseLink(license)}" target= "_blank" > ${license} </a> license. 
   `
 }
 }
-
+//a function to make the license appear in the table of contents
 function tc (license) {
   if (license === 'None'){
     return ''
