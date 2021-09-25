@@ -67,7 +67,7 @@ const questions = [
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
 function writeToFile(fileName, data) {
-  let newReadMe = `./SampleReadMe/${fileName}`;
+  let newReadMe = `./NewReadMe/${fileName}`;
   fs.writeFile(newReadMe, data, (err) =>
     err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
   );
