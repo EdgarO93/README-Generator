@@ -21,16 +21,15 @@ function renderLicenseLink(license) {
 
 // A function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license,name) {
   if (license === 'None'){
     return ''
   }
   else{
   return `
   ## License
-  This project is licensed under the terms of the  <a href=" ${renderLicenseLink(license)}" target= "_blank" > ${license} </a> license.
- 
-  
+  Copyright &copy; 2021 ${name} <br>
+  This project is licensed under the terms of the  <a href=" ${renderLicenseLink(license)}" target= "_blank" > ${license} </a> license. 
   `
 }
 }
