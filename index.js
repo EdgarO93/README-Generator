@@ -45,7 +45,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please select a license",
-    choices: ["MIT", "Apache-2.0","GPL-3.0", "None"],
+    choices: ["MIT", "Apache-2.0", "GPL-3.0", "None"],
   },
   {
     type: "input",
@@ -71,14 +71,14 @@ function writeToFile(fileName, data) {
   fs.unlink(newReadMe, (err) => {
 
     if (err) {
-        console.log("No README to overwrite, will make new one!");
+      console.log("No README to overwrite, will make new one!");
     }
 
-   
+
     fs.writeFile(newReadMe, data, (err) =>
       err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
     );
-})
+  })
 
 }
 
