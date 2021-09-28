@@ -106,9 +106,6 @@ ${data.thanks}
   
   `;
 
-
-
-
 }
 
 module.exports = generateMarkdown;
