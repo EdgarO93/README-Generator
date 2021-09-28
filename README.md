@@ -42,7 +42,8 @@ View of VS CODE Integrated Terminal with no README in NewReadMe folder. It will 
 ![plot](Images/integrated.png)
 
 ## Video
-[![Video](https://drive.google.com/file/d/1eAf1jJA9vK0_8uh6gsvW2kb_4Wh1trzh/preview" width="640" height="480" allow="autoplay)
+https://user-images.githubusercontent.com/87279051/135019036-fa1b63ac-d9f3-4d54-b046-adcfc73433d7.mp4
+
 
 ## License
 
