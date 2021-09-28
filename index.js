@@ -65,24 +65,21 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-//unlink function to detelete the previous README
+//unlink function to delete the previous README
 function writeToFile(fileName, data) {
   let newReadMe = `./NewReadMe/${fileName}`
   fs.unlink(newReadMe, (err) => {
 
     if (err) {
-        console.log(err);
+        console.log("No README to overwrite, will make new one!");
     }
 
-    // let newReadMe = `./NewReadMe/${fileName}`;
+   
     fs.writeFile(newReadMe, data, (err) =>
       err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
     );
 })
-  // let newReadMe = `./NewReadMe/${fileName}`;
-  // fs.writeFile(newReadMe, data, (err) =>
-  //   err ? console.log(err) : console.log("Success! You have a new README in the NewReadMe folder.")
-  // );
+
 }
 
 // TODO: Create a function to initialize app
@@ -100,13 +97,6 @@ function init() {
     // console.log(answers.email);
     writeToFile("README.md", generateMarkdown(answers));
   });
-  // .catch((error)=>{
-  //     if(error.isTtyError){
-  //         console.log('error')
-  //     } else{
-  //         //something else went wrong
-  //     }
-  // });
 }
 
 // Function call to initialize app
