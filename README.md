@@ -1,8 +1,9 @@
 # README-Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+This README Generator is powered by Node.js, JavaScript, jQuery and dynamic HTML. This project will allow users to quickly create a README. I enjoyed creating this project as I learned alot more about Node.js and using packages such as NPM. It was challenging to write this without having the console window of the browswer. I was able to leverage my JavaScript acknowledge to execute this project. I learned alot more on READMEs as well. In future versions, I would like to increase the license and make the generator more customizable. 
 
 ## Table of Contents
 
@@ -16,12 +17,16 @@
 - [Acknowledgments](#acknowledgments)
 
 ### Installation
+After downloading this repository, go into the folder of this project. Then run npm install or i.
 
 ### Usage
+You can then run the program by running node index.js and you will see prompts start appearing.
 
 ### Contribute
+Feel free to fork or clone this repo and make your own versions.
 
 ## Test
+Please test and let me know if of any bugs. If you would like to keep your README.md make sure to move out of folder or rename. This program will overwrite the README in the NewReadMe folder or create a new README.md if there is no path.
 
 ## License
 
