@@ -68,8 +68,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribute](#contribute)
-  * [Test](#test)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
    ${tc(data.license)} 
   * [Questions](#questions)
   * [Acknowledgments](#acknowledgments)
@@ -84,10 +84,10 @@ function generateMarkdown(data) {
   ${(data.usage)}
  
 
-  ### Contribute
+  ### Contributing
   ${data.contribute}
 
-  ## Test
+  ## Tests
   ${data.test}
 
   ${renderLicenseSection(data.license, data.name)}
