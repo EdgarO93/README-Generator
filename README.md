@@ -12,6 +12,8 @@ This README Generator is powered by Node.js, JavaScript, jQuery and dynamic HTML
 - [Contribute](#contribute)
 - [Questions](#questions)
 - [Test](#test)
+- [Screenshot](#screenshot)
+- [Video](#video)
 - [License](#license)
 - [Questions](#questions)
 - [Acknowledgments](#acknowledgments)
@@ -27,6 +29,20 @@ Feel free to fork or clone this repo and make your own versions.
 
 ## Test
 Please test and let me know if of any bugs. If you would like to keep your README.md make sure to move out of folder or rename. This program will overwrite the README in the NewReadMe folder or create a new README.md if there is no path.
+
+## Screenshot 
+Sample README
+![plot](Images/top.png)
+![plot](Images/bottom.png)
+
+View of Terminal
+![plot](Images/term.png)
+
+View of VS CODE Integrated Terminal with no README in NewReadMe folder. It will create new README.
+![plot](Images/integrated.png)
+
+## Video
+
 
 ## License
 
