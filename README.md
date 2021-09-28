@@ -44,6 +44,8 @@ View of VS CODE Integrated Terminal with no README in NewReadMe folder. It will 
 ## Video
 https://user-images.githubusercontent.com/87279051/135019036-fa1b63ac-d9f3-4d54-b046-adcfc73433d7.mp4
 
+<a href ="https://watch.screencastify.com/v/3r7qDwHzMoZhsyVR1WAE" target= "_blank" > Link to video. </a> 
+
 
 ## License
 
