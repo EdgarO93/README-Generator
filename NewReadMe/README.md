@@ -2,13 +2,13 @@
   [![License: GPL 3.0](https://img.shields.io/badge/License-GPL_3.0-brightgreen.svg)](https://opensource.org/licenses/gpl-3.0)
   ## Description
   
-  Latest Test for the README-GENERATOR project.
+  This is a sample for the README GENERATOR
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribute](#contribute)
-  * [Test](#test)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
    
  * [License](#license)
   
@@ -19,18 +19,18 @@
   ### Installation
 
   ***
-  download this repo!
+  Download this repo and  then run npm install.
 ***
   
   ### Usage
-  run node index.js and answer prompts
+  run node index.js in the command line
  
 
-  ### Contribute
-  None
+  ### Contributing
+  Please fork or clone this repo
 
-  ## Test
-  Test Always
+  ## Tests
+  Make sure to test this README GENERATOR by going thru all the prompts and look for a new README.md file in the NewReadMe folder. A new test will overwrite this file so move or rename file
 
   
   ## License
@@ -45,7 +45,7 @@
   
   ## Acknowledgments
 ~~~
-Thanks to all!
+Thanks to all!!
 ~~~
 
   
